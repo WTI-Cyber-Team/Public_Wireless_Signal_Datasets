@@ -1,13 +1,13 @@
 # Public_Wireless_Signal_Datasets
-SEI相关的开源数据集合
 
 
-# The English version of the Readme will be available soon # 
+## 说明
+这个仓库用于收集互联网上能获取到的信号检测相关的开源数据集。此外，我们实验室自制的仿真/实测数据集数据集也会放在这里。
 
 
-# 文件夹说明 # 
-AMSCN论文中的仿真数据集
-文件夹SEI_Model中定义了几种功放模型，Generate_Dataset文件夹中每个调制方式下都会生成5组不同发射机模型创建此种调制方式的信号
+
+## Introductions
+This repository is used to collect open source datasets related to signal detection that are available on the Internet. In addition, our lab's home-made simulation/real measurement dataset dataset will be placed here.
 
 
 
