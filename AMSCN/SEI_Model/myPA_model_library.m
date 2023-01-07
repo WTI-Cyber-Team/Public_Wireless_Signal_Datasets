@@ -6,7 +6,7 @@ PA_out = zeros(a,b);
 PA_maxin = 1; %设定的最大输入幅度
 
 if device_code == 1
-    saleh_para = 1.44*[1/1.2,0.25,0.25,0.26];  %截断1.2，参数按照比例变化缩放
+    saleh_para = 1.44*[1/1.2,0.25,0.26,0.25];  %截断1.2，参数按照比例变化缩放
     PA_out = PA_Saleh(input_signal,saleh_para);
     PA_maxout = abs(PA_Saleh(PA_maxin,saleh_para));
     PA_out = PA_out/PA_maxout; %保持输出的最大功率归一化
